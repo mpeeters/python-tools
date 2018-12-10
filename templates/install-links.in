@@ -50,6 +50,7 @@ files.extend(glob.glob(os.path.join(buildout, 'bin', 'release')))
 files.extend(glob.glob(os.path.join(buildout, 'bin', 'templer')))
 files.extend(glob.glob(os.path.join(buildout, 'bin', 'pyroma')))
 files.extend(glob.glob(os.path.join(buildout, 'bin', 'plonecli')))
+files.extend(glob.glob(os.path.join(buildout, 'bin', 'pocompile')))
 files.sort()
 links = [(x, os.path.basename(x)) for x in files]
 for src, name in links:
