@@ -6,7 +6,7 @@ Installation
 
 ```
 virtualenv-2.7 .
-bin/python2.7 bootstrap.py
+bin/pip install -r requirements.txt
 bin/buildout
 ```
 
