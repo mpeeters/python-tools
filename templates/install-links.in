@@ -51,7 +51,7 @@ executables = (
     'release',
 )
 
-files = [glob.glob(os.path.join(buildout, 'bin', f))
+files = [glob.glob(os.path.join(buildout, 'bin', f))[0]
          for f in executables]
 files.sort()
 links = [(x, os.path.basename(x)) for x in files]
