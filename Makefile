@@ -2,7 +2,7 @@
 all: buildout
 
 bin/python:
-	virtualenv-2.7 .
+	virtualenv-3.7 .
 
 bin/buildout: bin/python
 	bin/pip install -r requirements.txt
