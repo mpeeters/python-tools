@@ -38,7 +38,7 @@ executables = (
     'lasttagdiff',
     'lasttaglog',
     'mrbob',
-    'pep8',
+    'pycodestyle',
     'plonecli',
     'pocompile',
     'polint',
