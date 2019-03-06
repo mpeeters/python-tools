@@ -16,6 +16,9 @@ buildout: bin/install-links
 links: bin/install-links
 	sudo bin/install-links
 
+update:
+	bin/buildout -N
+
 cleanall:
 	rm -rf bin develop-eggs include lib parts pip-selfcheck.json
 
