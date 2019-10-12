@@ -40,7 +40,6 @@ executables = (
     'lasttagdiff',
     'lasttaglog',
     'mrbob',
-    'pipenv',
     'plonecli',
     'pocompile',
     'polint',
