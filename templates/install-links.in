@@ -37,6 +37,7 @@ executables = (
     'flake8',
     'fullrelease',
     'i18ndude',
+    'isort',
     'lasttagdiff',
     'lasttaglog',
     'mrbob',
