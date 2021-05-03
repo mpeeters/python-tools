@@ -52,6 +52,9 @@ executables = (
     'pylint',
     'pyroma',
     'release',
+    'tx',
+    'twine',
+    'devpi',
 )
 
 files = [glob.glob(os.path.join(buildout, 'bin', f))[0]
