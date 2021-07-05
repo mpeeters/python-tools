@@ -55,6 +55,7 @@ executables = (
     'tx',
     'twine',
     'devpi',
+    'towncrier',
 )
 
 files = [glob.glob(os.path.join(buildout, 'bin', f))[0]
